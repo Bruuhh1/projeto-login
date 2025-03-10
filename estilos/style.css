@@ -35,6 +35,7 @@ section#login{
     transition-timing-function: ease;
 }
 
+
 section#login > div#imagem{
     display: block;
     background: black url(../imagens/metal.jpg) no-repeat;
@@ -47,4 +48,70 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 
+}
+
+div#formulario{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+div.campo{
+    background-color: #20165a25;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+div.campo > label{
+    display: none;
+}
+
+.botaoEntrar{
+    display: block;
+    font-size: 1em;
+    width: 50%;
+    margin: auto;
+    margin-top: 7px;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botaoEntrar:hover{
+    background-color: #2d5f5d;
+}
+
+.botaoEsqueci{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    width: 75%;
+    height: 45px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #3b807d;
+    color: #2d5f5d;
+    border-radius: 5px;
+}
+
+.botaoEsqueci:hover{
+    background-color: #2d5f5d;
+    color: white;
+}
+
+form > a.botaoEsqueci > span{
+    font-size: 1em;
 }
